@@ -6,6 +6,7 @@ const Home = () => {
             <h1>Home added from farha</h1>
             <p>paragraph added</p>
             <p>Narzis</p>
+            <p>Home</p>
         </div>
     );
 };

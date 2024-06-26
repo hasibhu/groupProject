@@ -10,6 +10,7 @@ const Banner = () => {
             <h5>Afgan</h5>
 
             <p>Paragraph from farha</p>
+            <h1>Hello Hasib</h1>
 
         </div>
     );

@@ -10,6 +10,7 @@ const Banner = () => {
 
             <h4>Pakistan</h4>
             <h5>Afgan</h5>
+            <h6>Iran</h6>
         </div>
     );
 };

@@ -1,11 +1,9 @@
-
-
 const Footer = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return (
+    <div>
+      <p>welcome to footer</p>
+    </div>
+  );
 };
 
 export default Footer;

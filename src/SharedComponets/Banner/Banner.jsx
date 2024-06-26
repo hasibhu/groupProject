@@ -5,8 +5,11 @@ const Banner = () => {
       <h2>Change for Nahar </h2>
       <h3>Test for ZK </h3>
       <h3>Bangladesh</h3>
-      <p>Paragraph from farha</p>
+
+      <h4>Pakistan</h4>
+      <h5>Afgan</h5>
       <h1>from rafi </h1>
+      <p>Paragraph from farha</p>
     </div>
   );
 };

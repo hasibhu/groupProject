@@ -1,11 +1,9 @@
-
-
 const Router = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return (
+    <div>
+      <p>Sadeks Router</p>
+    </div>
+  );
 };
 
 export default Router;

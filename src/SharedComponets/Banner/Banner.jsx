@@ -1,4 +1,6 @@
 const Banner = () => {
+
+    
   return (
     <div>
       <h1>This is Banner</h1>
@@ -14,6 +16,7 @@ const Banner = () => {
       <p>Paragraph from farha</p>
     </div>
   );
+
 };
 
 export default Banner;

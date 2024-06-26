@@ -1,9 +1,5 @@
 const Router = () => {
-  return (
-    <div>
-      <p>Sadeks Router</p>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Router;

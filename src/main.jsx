@@ -6,6 +6,7 @@ import Root from './Root/Root.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <div className='max-w-[1440px] border-[10px] border-red-500 mx-auto p-3'> */}
+    
     <div className=' mx-auto p-3'>
       <Root></Root>
     </div> 

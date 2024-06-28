@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const SliderCart = ({ bg, title, subTitle, description }) => {
   return (
     <div className={` lg:h-[600px] w-full relative`}>
@@ -9,7 +10,7 @@ const SliderCart = ({ bg, title, subTitle, description }) => {
           <h1 className="text-3xl lg:text-6xl font-bold text-center">{title}</h1>
           <h3 className="text-xl lg:text-3xl text-center text-cyan-600 font-semibold">{subTitle}</h3>
 
-          <p className="lg:text-lg lg:w-4/5 mx-auto">{description}</p>
+          <p className="lg:text-lg lg:w-2/3 mx-auto">{description}</p>
 
           <div className="text-center">
             <button className="px-6 py-2 border-2 border-red-300 rounded-lg">Get Started</button>

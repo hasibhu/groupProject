@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div>
+    <div className="text-center">
       <h1>Footer Section</h1>
       <p>welcome to footer</p>
     </div>

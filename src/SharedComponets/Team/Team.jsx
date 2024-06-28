@@ -2,7 +2,7 @@
 
 const Team = () => {
     return (
-        <div>
+        <div className="max-w-[1440px]">
             
         </div>
     );

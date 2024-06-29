@@ -1,6 +1,7 @@
 // import { FaCheckCircle } from "react-icons/fa";
-import SectionTitle from "../../CustomeComponent/SectionTitle";
+
 import about from "../../assets/about.jpg";
+import SectionTitle from "../../CustomComponent/SectionTitle";
 
 const About = () => {
   return (
@@ -53,9 +54,11 @@ const About = () => {
           {/* 2nd Part */}
           <div className="flex-1 space-y-10">
             <p className="text-gray-700  lg:text-lg">
-              Empower your coding journey with our dynamic code labs. Through interactive projects, expert insights, and a thriving
-              developer community, we provide the tools and support you need to succeed. Elevate your skills, turn ideas into reality, and
-              collaborate with peers in an engaging and innovative learning environment.
+              Empower your coding journey with our dynamic code labs. Through
+              interactive projects, expert insights, and a thriving developer
+              community, we provide the tools and support you need to succeed.
+              Elevate your skills, turn ideas into reality, and collaborate with
+              peers in an engaging and innovative learning environment.
             </p>
 
             <div>

@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <div className="  w-full rounded-2xl bg-black text-white">
-      <div className=" flex justify-between py-5 px-10">
+      <div className=" flex max-w-[1440px] mx-auto justify-between py-5 px-10">
         <div className=" ">
           <p>Logo</p>
         </div>

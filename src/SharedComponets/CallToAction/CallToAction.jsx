@@ -1,7 +1,6 @@
 import { useState } from "react";
 import bgImage from "../../assets/callToActionImage.jpg";
 import SectionTitle from "../../CustomComponent/SectionTitle";
-// import SectionTitle from '../../CustomeComponent/SectionTitle';
 
 const CallToAction = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -26,19 +25,6 @@ const CallToAction = () => {
             <div>
                 <SectionTitle title={title} subtitle={subtilte} description={description} ></SectionTitle>
             </div>
-{/* =======
-  const handleCall = () => {
-    window.location.href = `tel:${phoneNumber}`;
-  };
-  const title = "Call To Action";
-  const subtilte = "Any Query";
-  // const description = ''
-  return (
-    <div className="mt-16">
-      <div>
-        <SectionTitle title={title} subtitle={subtilte}></SectionTitle>
-      </div>
->>>>>>> origin/main */}
 
       <div
         className="flex w-full  mx-auto items-center justify-center text-white text-center bg-cover bg-center relative p-8 sm:p-16 rounded-xl"
@@ -62,7 +48,7 @@ const CallToAction = () => {
 
         {isModalOpen && (
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-            <div className="bg-white text-black p-8 rounded-lg text-center">
+            <div className="bg-white text-black rounded-lg text-center">
               <h2 className="text-2xl mb-4">Confirm Call</h2>
               <p className="text-xl mb-6">Call {phoneNumber}?</p>
 

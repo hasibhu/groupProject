@@ -19,11 +19,13 @@ const CallToAction = () => {
     };
     const title = 'Call To Action';
     const subtilte = 'Any Query'
-    // const description = ''
+    const description = ''
     return (
         <div className='mt-16'>
             
-            <div><SectionTitle title={title} subtitle={subtilte}></SectionTitle></div>
+            <div>
+                <SectionTitle title={title} subtitle={subtilte} description={description} ></SectionTitle>
+            </div>
 
 
             <div

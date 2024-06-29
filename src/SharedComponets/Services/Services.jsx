@@ -3,11 +3,16 @@ import { FaServer, FaUserLock } from "react-icons/fa";
 import { MdAdminPanelSettings, MdDashboard, MdDevices } from "react-icons/md";
 import "./services.css";
 import { IoIosSettings, IoLogoUsd } from "react-icons/io";
+import SectionTitle from "../../CustomeComponent/SectionTitle";
 
 const Services = () => {
+  const title = `Services`;
+  const subtitle = `Our Services`;
+  const description = ` If you buy any services from us we commited to support you 24/7. So
+          Harry Up .....`;
   return (
     <div>
-      <div className=" max-w-[1440px] mx-auto flex flex-col items-center justify-center">
+      {/* <div className=" max-w-[1440px] mx-auto flex flex-col items-center justify-center">
         <h1 className="bg-[#FDEFF2] inline-block uppercase text-[#E43C5C] text-[16px] font-semibold py-1 px-5 rounded-full">
           Services
         </h1>
@@ -18,6 +23,13 @@ const Services = () => {
           If you buy any services from us we commited to support you 24/7. So
           Harry Up .....
         </p>
+      </div> */}
+      <div>
+        <SectionTitle
+          title={title}
+          subtitle={subtitle}
+          description={description}
+        ></SectionTitle>
       </div>
       <div className=" my-7 max-w-[1440px] mx-auto grid grid-cols-12 gap-5">
         <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-6 lg:col-span-3 hover_root cursor-pointer ">

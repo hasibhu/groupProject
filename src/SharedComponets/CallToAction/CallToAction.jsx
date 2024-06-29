@@ -6,7 +6,7 @@ import bgImage from '../../assets/callToActionImage.jpg';
 const CallToAction = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const buttonText = "Call Now";
-    const phoneNumber = "01714120660";
+    const phoneNumber = "01619971997";
     const backgroundImage = bgImage;
 
     const toggleModal = () => {

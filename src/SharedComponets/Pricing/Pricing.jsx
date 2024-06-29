@@ -10,12 +10,12 @@ const Pricing = () => {
         <h2 className="text-[#444444] text-[40px] font-semibold">
           Our <span className="text-[#E43C5C]">Pricing</span>
         </h2>
-        <p className=" text-lg text-center">
+        <p className="max-w-[700px] mx-auto text-center text-lg">
         Our pricing plans offer flexible, value-packed options for individuals, small businesses, and enterprises, with transparent pricing, no hidden fees, and dedicated support
         </p>
       </div>
         
-            <div className="mt-10 grid md:grid-cols-3 grid-cols-1">
+            <div className="mt-10 grid md:grid-cols-3 grid-cols-1 lg:gap-0 gap-14">
 
                 {/* <!-- Basic Plan --> */}
                 <div className="max-w-sm mx-auto bg-[#F9F9F9] rounded-lg shadow-lg p-6 text-center transform transition-transform duration-300 hover:scale-110">
@@ -35,7 +35,7 @@ const Pricing = () => {
                 </div>
 
                 {/* <!-- Pro Plan --> */}
-                <div className="max-w-sm mx-auto bg-[#E43C5C] rounded-lg shadow-lg p-6 text-center transform transition-transform duration-300 hover:scale-110">
+                <div className="max-w-sm mx-auto bg-[#F9F9F9] border border-[#E43C5C] rounded-lg shadow-lg p-6 text-center transform transition-transform duration-300 hover:scale-110">
                     <div className="text-xl font-bold mb-2">Pro Plan</div>
                     <div className="text-4xl font-extrabold text-gray-900 mb-2">$29.99<span className="text-lg">/month</span></div>
                     <div className="text-sm mb-4">Billed annually</div>

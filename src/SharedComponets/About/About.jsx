@@ -1,18 +1,12 @@
 // import { FaCheckCircle } from "react-icons/fa";
-import SectionTitle from "../../CustomeComponent/SectionTitle";
+
+import SectionTitle from "../../CustomComponent/SectionTitle";
 import about from "../../assets/about.jpg";
 
 const About = () => {
   return (
     <div className="max-w-[1440px] mx-auto my-10 lg:my-24 ">
       {/* Section Title  */}
-      {/* <div className="lg:w-3/4 mx-auto ">
-        <div className="text-center">
-          <h6 className="lg:text-lg  text-red-300 font-semibold border-b-2 pb-1 border-red-300 inline-block  px-2">About</h6>
-        </div>
-        <h3 className="text-2xl lg:text-3xl text-center font-bold"></h3>
-        <p className="text-center text-lg"></p>
-      </div> */}
 
       <SectionTitle
         title="About"

@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import bgImage from '../../assets/callToActionImage.jpg';
+import SectionTitle from '../../CustomeComponent/SectionTitle';
 
 const CallToAction = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -16,17 +17,15 @@ const CallToAction = () => {
     const handleCall = () => {
         window.location.href = `tel:${phoneNumber}`;
     };
-
+    const title = 'Call To Action';
+    const subtilte = 'Any Query'
+    // const description = ''
     return (
-        <div className='mt-10'>
-            <div className='flex flex-col justify-center items-center'>
-                
-                <h1 className="bg-[#FDEFF2] text-[#E43C5C] text-[16px] font-semibold py-1 w-[450px]  rounded-full text-center mt-10">Call To Action</h1>
+        <div className='mt-16'>
+            
+            <div><SectionTitle title={title} subtitle={subtilte}></SectionTitle></div>
 
-                <h2 className="text-[#444444] text-[40px] text-center font-semibold">
-                     Any  <span className="text-[#E43C5C]">Query</span>
-                </h2>
-            </div>
+
             <div
                 className="flex w-full  mx-auto items-center justify-center text-white text-center bg-cover bg-center relative p-8 sm:p-16 rounded-xl"
                 style={{

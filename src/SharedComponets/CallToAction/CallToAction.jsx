@@ -24,7 +24,7 @@ const CallToAction = () => {
                 <h1 className="bg-[#FDEFF2] text-[#E43C5C] text-[16px] font-semibold py-1 w-[450px]  rounded-full text-center mt-10">Call To Action</h1>
 
                 <h2 className="text-[#444444] text-[40px] text-center font-semibold">
-                    Reach Us For Any  <span className="text-[#E43C5C]">Query</span>
+                     Any  <span className="text-[#E43C5C]">Query</span>
                 </h2>
             </div>
             <div

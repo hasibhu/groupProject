@@ -10,7 +10,9 @@ export default function SectionTitle({ title, subtitle, description }) {
         {subTitleArray[0]}{" "}
         <span className="text-[#E43C5C]">{subTitleArray[1]}</span>
       </h2>
-      <p className=" w-1/2 text-lg text-black/70 text-center">{description}</p>
+      <p className=" w-full md:w-1/2 text-lg text-black/70 text-center">
+        {description}
+      </p>
     </div>
   );
 }

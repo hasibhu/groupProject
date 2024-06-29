@@ -9,7 +9,7 @@ import slider3 from "../../assets/slider/slider3.jpg";
 
 const Slider = () => {
   return (
-    <div className="max-w-[1440px] mx-auto">
+    <div>
       <Swiper
         loop={true}
         centeredSlides={true}

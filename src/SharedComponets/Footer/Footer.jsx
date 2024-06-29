@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="text-center w-[1440px] mx-auto">
+    <div className="bg-blue-400 text-center mx-auto">
       <h1>Footer Section</h1>
       <p>welcome to footer</p>
     </div>

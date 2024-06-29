@@ -1,0 +1,16 @@
+.portfolio-card .card-actions {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-card:hover .card-actions {
+    opacity: 1;
+}
+
+.hidden-on-hover {
+    display: none;
+}
+
+.portfolio-card:hover .hidden-on-hover {
+    display: flex;
+}

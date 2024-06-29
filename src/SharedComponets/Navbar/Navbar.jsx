@@ -1,3 +1,5 @@
+import Button from "../../CustomComponent/Button";
+
 const Navbar = () => {
   return (
     <div className=" sticky z-10 top-0 w-full rounded-2xl bg-white dark:bg-black text-black dark:text-white">
@@ -29,6 +31,9 @@ const Navbar = () => {
             <a href="">
               {" "}
               <li>Contact</li>
+            </a>
+            <a href="#">
+              <Button>Login</Button>
             </a>
           </ul>
         </div>

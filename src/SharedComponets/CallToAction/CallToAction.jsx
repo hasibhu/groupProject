@@ -28,7 +28,7 @@ const CallToAction = () => {
                 </h2>
             </div>
             <div
-                className="flex w-full max-w-[1440px] mx-auto items-center justify-center text-white text-center bg-cover bg-center relative p-8 sm:p-16 rounded-xl"
+                className="flex w-full  mx-auto items-center justify-center text-white text-center bg-cover bg-center relative p-8 sm:p-16 rounded-xl"
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
                     backgroundSize: 'cover',

@@ -3,7 +3,7 @@ import PortfolioCard from "./PortfolioCard";
 
 const Portfolio = () => {
     return (
-        <div className="max-w-[1440px] lg:mx-20 mx-10">
+        <div className="max-w-[1440px] lg:mx-20 mx-10 my-10">
             <div className="flex justify-center mb-7">
           <div className="flex flex-col justify-center items-center ">
             <h1 className="bg-[#FDEFF2] text-[#E43C5C] text-[16px] font-semibold py-1 px-5 rounded-full">

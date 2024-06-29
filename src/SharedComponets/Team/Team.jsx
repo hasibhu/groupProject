@@ -1,4 +1,3 @@
-import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -166,7 +165,7 @@ const Team = () => {
             </SwiperSlide>
             {/* Repeat SwiperSlide as needed */}
           </Swiper>
-          <div className="custom-pagination mt-5 flex gap-2 justify-center"></div>
+          <div className="custom-pagination mt-5 flex gap-[7px] justify-center"></div>
         </div>
       </div>
     </div>

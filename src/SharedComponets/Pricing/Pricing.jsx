@@ -2,8 +2,8 @@
 
 const Pricing = () => {
     return (
-        <div>
-            <div className="py-10 max-w-[1440px] mx-auto flex flex-col items-center justify-center">
+        <div className="py-10 max-w-[1440px] mx-auto">
+            <div className="flex flex-col items-center justify-center">
         <h1 className="bg-[#FDEFF2] inline-block uppercase text-[#E43C5C] text-[16px] font-semibold py-1 px-5 rounded-full">
           Pricing
         </h1>
@@ -18,7 +18,7 @@ const Pricing = () => {
             <div className="mt-10 grid md:grid-cols-3 grid-cols-1">
 
                 {/* <!-- Basic Plan --> */}
-                <div className="max-w-sm mx-auto bg-white rounded-lg shadow-lg p-6 text-center transform transition-transform duration-300 hover:scale-110">
+                <div className="max-w-sm mx-auto bg-[#F9F9F9] rounded-lg shadow-lg p-6 text-center transform transition-transform duration-300 hover:scale-110">
                     <div className="text-xl font-bold mb-2">Basic Plan</div>
                     <div className="text-4xl font-extrabold text-gray-900 mb-2">$9.99<span className="text-lg">/month</span></div>
                     <div className="text-sm text-gray-600 mb-4">Billed annually</div>
@@ -53,7 +53,7 @@ const Pricing = () => {
                 </div>
 
                 {/* <!-- Enterprise Plan --> */}
-                <div className="max-w-sm mx-auto bg-white rounded-lg shadow-lg p-6 text-center transform transition-transform duration-300 hover:scale-110">
+                <div className="max-w-sm mx-auto bg-[#F9F9F9] rounded-lg shadow-lg p-6 text-center transform transition-transform duration-300 hover:scale-110">
                     <div className="text-xl font-bold mb-2">Enterprise Plan</div>
                     <div className="text-4xl font-extrabold text-gray-900 mb-2">Contact Us</div>
                     <div className="text-sm text-gray-600 mb-4">Custom billing</div>

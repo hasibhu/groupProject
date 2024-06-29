@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -8,13 +8,14 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination } from "swiper/modules";
+
 const Team = () => {
   return (
     <div className="max-w-[1440px] m-auto py-10">
       <div>
-        <div className="flex justify-center mb-5">
+        <div className="flex justify-center mb-7">
           <div className="flex flex-col justify-center items-center ">
-            <h1 className="bg-[#FDEFF2] text-[#E43C5C] text-[18px] font-semibold py-2 px-10 rounded-full">
+            <h1 className="bg-[#FDEFF2] text-[#E43C5C] text-[16px] font-semibold py-1 px-5 rounded-full">
               TEAM
             </h1>
             <h2 className="text-[#444444] text-[40px] font-semibold">
@@ -32,6 +33,7 @@ const Team = () => {
             spaceBetween={30}
             pagination={{
               clickable: true,
+              el: '.custom-pagination',
             }}
             modules={[Pagination]}
             className="mySwiper"
@@ -162,7 +164,9 @@ const Team = () => {
                 </div>
               </div>
             </SwiperSlide>
+            {/* Repeat SwiperSlide as needed */}
           </Swiper>
+          <div className="custom-pagination mt-5 flex gap-2 justify-center"></div>
         </div>
       </div>
     </div>
@@ -170,4 +174,3 @@ const Team = () => {
 };
 
 export default Team;
-

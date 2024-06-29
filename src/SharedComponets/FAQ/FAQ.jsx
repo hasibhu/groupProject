@@ -2,18 +2,18 @@
 
 const FAQ = () => {
     return (
-        <div className="w-[1440px] mx-auto">
+        <div className="lg:w-[1440px] mx-auto mt-10">
 
             <div className="flex flex-col justify-center items-center">
-                <h1 className="bg-[#FDEFF2] text-[#E43C5C] text-[16px] font-semibold py-1 w-[450px]  rounded-full text-center mt-10">Frequently Asked Questions (FAQ)</h1>
+                <h1 className="bg-[#FDEFF2] text-[#E43C5C] text-[16px]  font-semibold py-1 w-[450px]  rounded-full text-center mt-10">Frequently Asked Questions (FAQ)</h1>
 
-                <h2 className="text-[#444444] text-[40px] font-semibold">
+                <h2 className="text-[#444444] text-[40px] text-center font-semibold p-4">
                     Why With US <span className="text-[#E43C5C]">?</span>
                 </h2>
             </div>
 
             {/* questions section */}
-            <div className="w-[950px] mx-auto">
+            <div className="lg:w-[950px] mx-auto">
                 <div className="collapse collapse-plus bg-base-200">
                     <input type="radio" name="my-accordion-3" defaultChecked />
                     <div className="collapse-title text-xl font-medium">What services does CodeLab offer?</div>

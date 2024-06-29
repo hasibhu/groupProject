@@ -1,4 +1,5 @@
-# React + Vite
+# CodeLab
+# Group work testing and github group work practice 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

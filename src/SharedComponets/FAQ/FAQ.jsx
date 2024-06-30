@@ -5,7 +5,7 @@ const FAQ = () => {
         <div className="lg:w-[1440px] mx-auto mt-10">
 
             <div className="flex flex-col justify-center items-center">
-                <h1 className="bg-[#FDEFF2] text-[#E43C5C] text-[16px]  font-semibold py-1 w-[450px]  rounded-full text-center mt-10">Frequently Asked Questions (FAQ)</h1>
+                <h1 className="bg-[#FDEFF2] text-[#E43C5C] text-[16px]  font-semibold py-1 lg:w-[450px]  rounded-full text-center mt-10">Frequently Asked Questions (FAQ)</h1>
 
                 <h2 className="text-[#444444] text-[40px] text-center font-semibold p-4">
                     Why With US <span className="text-[#E43C5C]">?</span>

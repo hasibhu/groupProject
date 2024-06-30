@@ -26,7 +26,7 @@ const CallToAction = () => {
                 <SectionTitle title={title} subtitle={subtilte} description={description} ></SectionTitle>
             </div>
 
-      <div
+        <div
         className="flex w-full  mx-auto items-center justify-center text-white text-center bg-cover bg-center relative p-8 sm:p-16 rounded-xl"
         style={{
           backgroundImage: `url(${backgroundImage})`,

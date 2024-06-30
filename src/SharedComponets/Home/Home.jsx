@@ -10,7 +10,7 @@ import ContactUs from '../ContactUs/ContactUs';
 import CallToAction from '../CallToAction/CallToAction';
 import About from '../About/About';
 import FAQ from '../FAQ/FAQ';
-import SmoothScroll from '../../SmoothScrooll/SmoothScroll';
+// import SmoothScroll from '../../SmoothScrooll/SmoothScroll';
 
 
 
@@ -29,7 +29,7 @@ const Home = () => {
             <ContactUs></ContactUs>
             <Footer></Footer>
 
-            <SmoothScroll></SmoothScroll>
+            {/* <SmoothScroll></SmoothScroll> */}
 
         </div>
     );

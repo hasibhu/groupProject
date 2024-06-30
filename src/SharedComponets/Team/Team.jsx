@@ -38,8 +38,8 @@ const Team = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className="border rounded-lg overflow-hidden">
-                <div className="relative group">
+              <div className="border rounded-lg overflow-hidden group">
+                <div className="relative">
                   <img
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
@@ -59,8 +59,8 @@ const Team = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="border rounded-lg overflow-hidden">
-                <div className="relative group">
+              <div className="border rounded-lg overflow-hidden group">
+                <div className="relative">
                   <img
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
@@ -80,8 +80,8 @@ const Team = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="border rounded-lg overflow-hidden">
-                <div className="relative group">
+              <div className="border rounded-lg overflow-hidden group">
+                <div className="relative">
                   <img
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
@@ -101,8 +101,8 @@ const Team = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="border rounded-lg overflow-hidden">
-                <div className="relative group">
+              <div className="border rounded-lg overflow-hidden group">
+                <div className="relative">
                   <img
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
@@ -122,8 +122,8 @@ const Team = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="border rounded-lg overflow-hidden">
-                <div className="relative group">
+              <div className="border rounded-lg overflow-hidden group">
+                <div className="relative">
                   <img
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
@@ -143,8 +143,8 @@ const Team = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="border rounded-lg overflow-hidden">
-                <div className="relative group">
+              <div className="border rounded-lg overflow-hidden group">
+                <div className="relative">
                   <img
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"

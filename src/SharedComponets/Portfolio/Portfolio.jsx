@@ -14,7 +14,7 @@ const Portfolio = () => {
       <div className="mb-4">
         <SectionTitle title={title} subtitle={subtilte} description={description} ></SectionTitle>
       </div>
-      {/*  */}
+     
 
       <div>
         <PortfolioCards></PortfolioCards>

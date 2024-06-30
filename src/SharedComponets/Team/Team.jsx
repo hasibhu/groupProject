@@ -7,23 +7,18 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination } from "swiper/modules";
+import SectionTitle from './../../CustomComponent/SectionTitle';
 
 const Team = () => {
+  const title = 'Team';
+  const subtilte = 'Our Hardworking Team'
+  const description = 'Step into our project gallery where each piece of work reflects our dedication and skill in coding.  From sleek websites to complex applications, CodingLab’s projects'
   return (
     <div className="max-w-[1440px] m-auto py-10">
       <div>
         <div className="flex justify-center mb-7">
           <div className="flex flex-col justify-center items-center ">
-            <h1 className="bg-[#FDEFF2] text-[#E43C5C] text-[16px] font-semibold py-1 px-5 rounded-full">
-              TEAM
-            </h1>
-            <h2 className="text-[#444444] text-[40px] font-semibold">
-              Our Hardworking <span className="text-[#E43C5C]">Team</span>
-            </h2>
-            <p className="max-w-[600px] text-center">
-              Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-              adipisci expedita at voluptas atque vitae autem.
-            </p>
+          <SectionTitle title={title} subtitle={subtilte} description={description} designAmount={1} ></SectionTitle>
           </div>
         </div>
         <div className="">

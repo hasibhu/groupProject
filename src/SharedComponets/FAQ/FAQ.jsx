@@ -3,7 +3,8 @@ import SectionTitle from "../../CustomComponent/SectionTitle";
 const FAQ = () => {
   const title = "Frequently Asked Questions (FAQ)";
   const subtilte = "Why With US ?";
-  const description = "";
+   const description = "";
+
   return (
     <div className="lg:w-[1440px] mx-auto mt-10">
       <div className="flex flex-col justify-center items-center">

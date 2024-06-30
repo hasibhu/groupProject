@@ -7,7 +7,9 @@ const SmoothScroll = () => {
         <div className="App ">
             {/* <ScrollToTop smooth color="#6f00ff" /> */}
             <div >
+
                 <ScrollToTop className="flex justify-center items-center " smooth color="red"  />
+
             </div>
             
         </div>
@@ -15,12 +17,3 @@ const SmoothScroll = () => {
 };
 
 export default SmoothScroll;
-
-
-
-
-
-
-
-
-

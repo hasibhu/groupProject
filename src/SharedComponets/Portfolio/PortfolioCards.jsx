@@ -1,7 +1,7 @@
 import "./Portfolio.css";
 
 const PortfolioCards = () => {
-// <<<<<<< HEAD
+
     return (
         <div className='grid md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-y-5'>
             <div className="portfolio-card ">

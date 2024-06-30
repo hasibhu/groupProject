@@ -17,6 +17,7 @@ const Services = () => {
           title={title}
           subtitle={subtitle}
           description={description}
+          designAmount={1}
         ></SectionTitle>
       </div>
       <div className=" my-7 max-w-[1440px] mx-auto grid grid-cols-12 gap-5">

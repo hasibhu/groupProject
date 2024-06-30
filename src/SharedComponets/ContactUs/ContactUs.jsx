@@ -30,7 +30,7 @@ const ContactUs = () => {
           </p>
         </div>
         <div className="mt-10 grid grid-cols-12">
-          <div className="flex flex-col gap-10 col-span-4">
+          <div className="flex flex-col gap-10 col-span-12 lg:col-span-4">
             <div className="flex gap-3">
               <div className="bg-[#FDEFF2] text-[#E43C5C] flex justify-center items-center px-3 rounded-full">
                 <svg
@@ -115,7 +115,7 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-8">
+          <div className="col-span-12 lg:col-span-8 mt-5 lg:mt-0">
             <div className="grid grid-cols-12 gap-5">
               <input
                 type="text"
@@ -150,5 +150,5 @@ const ContactUs = () => {
     </div>
   );
 };
-
 export default ContactUs;
+

@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div>
       <div>
-        <footer className="footer footer-center bg-black text-white rounded p-10">
+        <footer className="footer  footer-center bg-black text-white rounded p-10">
           <nav className="grid grid-flow-col gap-4">
             <a className="link link-hover">About us</a>
             <a className="link link-hover">Contact</a>
@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
           </nav>
           <aside>
-            <p>Copyright © ${new Date().getFullYear()} - All right reserved by CodeLab Industries Ltd</p>
+            <p>Copyright ©All right reserved by CodeLab Industries Ltd</p>
           </aside>
         </footer>
       </div>

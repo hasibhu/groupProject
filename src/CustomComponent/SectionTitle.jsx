@@ -6,7 +6,7 @@ export default function SectionTitle({
   designAmount,
 }) {
   const subTitleArray = subtitle.split(" ");
-  const withoutStyleWords = subTitleArray.slice(0, -1);
+  // const withoutStyleWords = subTitleArray.slice(0, 1);
 
   return (
     <div className=" max-w-[1440px] mx-auto flex flex-col items-center justify-center">
@@ -14,9 +14,9 @@ export default function SectionTitle({
         {title}
       </h1>
       <h2 className="text-[#444444] text-3xl md:text-4xl font-semibold">
-        {withoutStyleWords.join(" ") + " "}
+        {subTitleArray.slice(0, designAmount).join(" ") + " "}
         <span className="text-[#E43C5C]">
-          {subTitleArray[subTitleArray.length - designAmount]}
+          {subTitleArray.slice(designAmount).join(" ")}
         </span>
       </h2>
       <p className=" w-full md:w-1/2 text-lg text-black/70 text-center">

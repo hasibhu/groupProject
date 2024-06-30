@@ -1,7 +1,7 @@
-
-import './Portfolio.css'
+import "./Portfolio.css";
 
 const PortfolioCards = () => {
+// <<<<<<< HEAD
     return (
         <div className='grid md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-y-5'>
             <div className="portfolio-card ">
@@ -232,8 +232,47 @@ const PortfolioCards = () => {
                     </div>
                 </div>
             </div>
+{/* =======
+  return (
+    <div className="grid md:grid-cols-2  lg:grid-cols-3 gap-y-5">
+      <div className="portfolio-card">
+        <div className="image-full w-96 shadow-sm relative hover:bg-opacity-65 hover:scale-110">
+          <figure>
+            <img
+              src="https://i.ibb.co/3ySx0kr/marques-thomas-h-O5s1n-SEMSc-unsplash.jpg"
+              alt="Shoes"
+              className="h-72"
+            />
+          </figure>
+          <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
+            <a
+              href="https://www.amazon.com"
+              className="btn bg-[#E43C5C] text-[#FFFFFF] hidden-on-hover"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="size-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                />
+              </svg>
+              Website Link
+            </a>
+          </div>
+>>>>>>> origin/main */}
+   
         </div>
-    );
+      
+  );
 };
 
 export default PortfolioCards;

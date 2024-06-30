@@ -29,6 +29,24 @@ const Team = () => {
         <div className="">
           <Swiper
             slidesPerView={4}
+            breakpoints={{
+              // when window width is >= 320px
+              320: {
+                slidesPerView: 1,
+              },
+              // when window width is >= 640px
+              640: {
+                slidesPerView: 2,
+              },
+              // when window width is >= 1024px
+              1024: {
+                slidesPerView: 3,
+              },
+              // when window width is >= 1440px
+              1440: {
+                slidesPerView: 4,
+              },
+            }}
             spaceBetween={30}
             pagination={{
               clickable: true,

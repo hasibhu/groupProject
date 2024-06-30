@@ -29,6 +29,24 @@ const Team = () => {
         <div className="">
           <Swiper
             slidesPerView={4}
+            breakpoints={{
+              // when window width is >= 320px
+              320: {
+                slidesPerView: 1,
+              },
+              // when window width is >= 640px
+              640: {
+                slidesPerView: 2,
+              },
+              // when window width is >= 1024px
+              1024: {
+                slidesPerView: 3,
+              },
+              // when window width is >= 1440px
+              1440: {
+                slidesPerView: 4,
+              },
+            }}
             spaceBetween={30}
             pagination={{
               clickable: true,
@@ -38,8 +56,8 @@ const Team = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className="border rounded-lg overflow-hidden">
-                <div className="relative group">
+              <div className="border rounded-lg overflow-hidden group">
+                <div className="relative">
                   <img
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
@@ -59,8 +77,8 @@ const Team = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="border rounded-lg overflow-hidden">
-                <div className="relative group">
+              <div className="border rounded-lg overflow-hidden group">
+                <div className="relative">
                   <img
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
@@ -80,8 +98,8 @@ const Team = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="border rounded-lg overflow-hidden">
-                <div className="relative group">
+              <div className="border rounded-lg overflow-hidden group">
+                <div className="relative">
                   <img
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
@@ -101,8 +119,8 @@ const Team = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="border rounded-lg overflow-hidden">
-                <div className="relative group">
+              <div className="border rounded-lg overflow-hidden group">
+                <div className="relative">
                   <img
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
@@ -122,8 +140,8 @@ const Team = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="border rounded-lg overflow-hidden">
-                <div className="relative group">
+              <div className="border rounded-lg overflow-hidden group">
+                <div className="relative">
                   <img
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
@@ -143,8 +161,8 @@ const Team = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="border rounded-lg overflow-hidden">
-                <div className="relative group">
+              <div className="border rounded-lg overflow-hidden group">
+                <div className="relative">
                   <img
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
@@ -171,6 +189,7 @@ const Team = () => {
     </div>
   );
 };
+
 
 export default Team;
 

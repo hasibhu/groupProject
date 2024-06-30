@@ -1,3 +1,5 @@
+import SectionTitle from "../../CustomComponent/SectionTitle";
+
 const ContactUs = () => {
   const title = 'Contact';
   const subtilte = 'Contact Us'

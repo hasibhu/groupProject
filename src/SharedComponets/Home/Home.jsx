@@ -29,7 +29,7 @@ const Home = () => {
             <ContactUs></ContactUs>
             <Footer></Footer>
 
-            <SmoothScroll></SmoothScroll>
+            <div ><SmoothScroll></SmoothScroll></div>
 
         </div>
     );

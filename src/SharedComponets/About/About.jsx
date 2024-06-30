@@ -13,6 +13,7 @@ const About = () => {
         title="About"
         subtitle="Empowering Developers"
         description="Transforming ideas into code through hands-on labs, expert guidance, and community support."
+        designAmount={1}
       />
 
       {/* About Section */}

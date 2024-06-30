@@ -48,7 +48,7 @@ const Pricing = () => {
                         <li className="mb-2">✔️ Customizable dashboard</li>
                         <li className="mb-2">✔️ Team collaboration tools</li>
                     </ul>
-                    <button className="w-full bg-[#E43C5C] text-[#E43C5C] py-2 rounded-lg transition duration-300">Upgrade Now</button>
+                    <button className="w-full bg-[#E43C5C] text-white py-2 rounded-lg transition duration-300">Upgrade Now</button>
                     <div className="text-xs text-gray-500 mt-4">14-day free trial, cancel anytime</div>
                 </div>
 

@@ -13,6 +13,7 @@ const Portfolio = () => {
           title={title}
           subtitle={subtilte}
           description={description}
+          designAmount={1}
         ></SectionTitle>
       </div>
 

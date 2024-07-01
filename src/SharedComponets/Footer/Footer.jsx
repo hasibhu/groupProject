@@ -1,3 +1,5 @@
+import logo from '../../assets/logoB.png'
+
 const Footer = () => {
   return (
     <div className="bg-[#F8FBFC]">
@@ -5,7 +7,9 @@ const Footer = () => {
 
         <footer className="footer  text-black py-10 px-3 ">
           <aside>
-            <h1 className="text-2xl font-bold">CodeLab</h1>
+         
+         <img className='h-16 w-32'  src={logo} alt="" />
+        
             <p>
               Banani,Dhaka
             </p>

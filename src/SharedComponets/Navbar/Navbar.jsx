@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { RxCross1 } from "react-icons/rx";
+import LightModeLogo from "../../assets/logoW.png";
+import DarkModeLogo from "../../assets/logoB.png";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -30,9 +32,13 @@ const Navbar = () => {
             : "bg-transparent text-white "
         }  dark:bg-black duration-500 dark:text-white`}
       >
-        <div className="  rounded-b-2xl  flex max-w-[1440px] mx-auto justify-between py-3 md:py-5   px-10">
-          <div className=" ">
-            <p>Logo</p>
+        <div className="  rounded-b-2xl  flex max-w-[1440px] mx-auto justify-between items-center py-3 md:py-5   px-10">
+          <div className=" h-12 ">
+            <img
+              className=" w-full h-full"
+              src={scrollY > 1 ? DarkModeLogo : LightModeLogo}
+              alt=""
+            />
           </div>
           <div>
             <div className=" block md:hidden lg:hidden">
@@ -69,19 +75,40 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className={`${openMenu ? "w-1/2 md:w-1/4" : "w-0"} fixed duration-200  h-full  top-0 z-20 left-0 bg-[#DBDADA]`}>
+      <div
+        className={`${
+          openMenu ? "w-1/2 md:w-1/4" : "w-0"
+        } fixed duration-200  h-full  top-0 z-20 left-0 bg-[#DBDADA]`}
+      >
         <div className=" w-full flex justify-end ">
-          <RxCross1 onClick={handleCloseMenu} className=" text-right text-2xl mr-5 mt-5 text-black" />
+          <RxCross1
+            onClick={handleCloseMenu}
+            className=" text-right text-2xl mr-5 mt-5 text-black"
+          />
         </div>
-        <div className={`${!openMenu ? "hidden" : "block"} flex justify-center`}>
+        <div
+          className={`${!openMenu ? "hidden" : "block"} flex justify-center`}
+        >
           {" "}
           <ul className=" flex flex-col text-center gap-5 text-black">
-            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">Home</li>
-            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">About</li>
-            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">Services</li>
-            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">Portfolio</li>
-            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">Team</li>
-            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">Contact</li>
+            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
+              Home
+            </li>
+            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
+              About
+            </li>
+            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
+              Services
+            </li>
+            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
+              Portfolio
+            </li>
+            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
+              Team
+            </li>
+            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
+              Contact
+            </li>
           </ul>
         </div>
       </div>

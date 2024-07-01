@@ -16,14 +16,15 @@ const CallToAction = () => {
     const handleCall = () => {
         window.location.href = `tel:${phoneNumber}`;
     };
-    const title = 'Call To Action';
+    const title = 'Call To Action ';
     const subtilte = 'Any Query'
-    const description = 'Our Expert Team Is Waiting for Your Call'
+    const description = 'Our Expert Team Is Waiting for Your Call';
+    
     return (
         <div className='mt-16'>
             
-            <div>
-                <SectionTitle title={title} subtitle={subtilte} description={description} ></SectionTitle>
+            <div className="mb-5">
+                <SectionTitle designAmount={1} title={title} subtitle={subtilte} description={description} ></SectionTitle>
             </div>
 
         <div

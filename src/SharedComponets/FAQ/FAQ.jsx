@@ -9,9 +9,10 @@ const FAQ = () => {
   return (
     <div className="max-w-[1440px] mx-auto mt-10">
       {/* <div className="flex flex-col justify-center items-center"> */}
-      <div className="">
+      <div className="mb-5">
        
         <SectionTitle
+          designAmount={1}
           title={title}
           subtitle={subtilte}
           description={description}

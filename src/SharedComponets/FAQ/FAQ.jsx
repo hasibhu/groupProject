@@ -2,18 +2,17 @@ import SectionTitle from "../../CustomComponent/SectionTitle";
 
 const FAQ = () => {
   const title = "Frequently Asked Questions (FAQ)";
-
   const subtilte = "Why With US?";
   const description = "Most Frequesntly Asked Questions Have Been Listed Below. ";
 
   
-
-
   return (
     <div className="max-w-[1440px] mx-auto mt-10">
-      <div className="flex flex-col justify-center items-center">
+      {/* <div className="flex flex-col justify-center items-center"> */}
+      <div className="mb-5">
        
         <SectionTitle
+          designAmount={2} //how many word will be colored?? assigned number.
           title={title}
           subtitle={subtilte}
           description={description}
@@ -21,8 +20,9 @@ const FAQ = () => {
       </div>
 
       {/* questions section */}
-      <div className="lg:w-[950px] mx-auto">
-        <div className="collapse collapse-plus bg-base-200">
+      <div className="lg:w-[950px] mx-auto ">
+
+        <div className="collapse mb-2 collapse-plus bg-base-200 " style={{ borderRadius: 0 }}>
           <input type="radio" name="my-accordion-3" defaultChecked />
           <div className="collapse-title text-xl font-medium">
             What services does CodeLab offer?
@@ -38,7 +38,7 @@ const FAQ = () => {
           </div>
         </div>
 
-        <div className="collapse collapse-plus bg-base-200">
+        <div className="collapse mb-2 collapse-plus bg-base-200">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             How does the website design process work at CodeLab?
@@ -55,7 +55,7 @@ const FAQ = () => {
           </div>
         </div>
 
-        <div className="collapse collapse-plus bg-base-200">
+        <div className="collapse mb-2  collapse-plus bg-base-200">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             What types of websites can CodeLab create?
@@ -71,7 +71,7 @@ const FAQ = () => {
           </div>
         </div>
 
-        <div className="collapse collapse-plus bg-base-200">
+        <div className="collapse mb-2 collapse-plus bg-base-200">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             Do you offer website maintenance services?
@@ -87,7 +87,7 @@ const FAQ = () => {
           </div>
         </div>
 
-        <div className="collapse collapse-plus bg-base-200">
+        <div className="collapse mb-2  collapse-plus bg-base-200">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             How much does a new website cost?
@@ -102,7 +102,7 @@ const FAQ = () => {
             </p>
           </div>
         </div>
-        <div className="collapse collapse-plus bg-base-200">
+        <div className="collapse mb-2  collapse-plus bg-base-200">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             Can CodeLab help improve my existing website?

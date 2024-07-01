@@ -21,7 +21,7 @@ const Services = () => {
         ></SectionTitle>
       </div>
       <div className=" my-7 max-w-[1440px] mx-auto grid grid-cols-12 gap-5">
-        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-6 lg:col-span-3 hover_root cursor-pointer ">
+        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12 max-sm:mx-8 lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
               <MdDevices className=" hover_child duration-300  text-4xl text-red-500" />
@@ -35,7 +35,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-6 lg:col-span-3 hover_root cursor-pointer ">
+        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12 max-sm:mx-8 lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
               <FaServer className=" hover_child duration-300  text-4xl text-red-500" />
@@ -49,7 +49,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-6 lg:col-span-3 hover_root cursor-pointer ">
+        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12 max-sm:mx-8 lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
               <BsServer className=" hover_child duration-300  text-4xl text-red-500" />
@@ -63,7 +63,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-6 lg:col-span-3 hover_root cursor-pointer ">
+        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12 max-sm:mx-8 lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
               <FaUserLock className=" hover_child duration-300  text-4xl text-red-500" />
@@ -75,7 +75,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-6 lg:col-span-3 hover_root cursor-pointer ">
+        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12 max-sm:mx-8 lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
               <IoLogoUsd className=" hover_child duration-300  text-4xl text-red-500" />
@@ -87,7 +87,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-6 lg:col-span-3 hover_root cursor-pointer ">
+        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12 max-sm:mx-8 lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
               <MdDashboard className=" hover_child duration-300  text-4xl text-red-500" />
@@ -101,7 +101,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-6 lg:col-span-3 hover_root cursor-pointer ">
+        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12 max-sm:mx-8 lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
               <MdAdminPanelSettings className=" hover_child duration-300  text-4xl text-red-500" />
@@ -116,7 +116,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-6 lg:col-span-3 hover_root cursor-pointer ">
+        <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12 max-sm:mx-8 lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
               <IoIosSettings className=" hover_child duration-300  text-4xl text-red-500" />

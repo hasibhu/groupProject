@@ -53,23 +53,28 @@ const CallToAction = () => {
 
         {isModalOpen && (
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-            <div className="bg-white text-black rounded-lg text-center">
+            <div className="bg-white text-black rounded-lg text-center p-6">
               <h2 className="text-2xl mb-4">Confirm Call</h2>
               <p className="text-xl mb-6">Call {phoneNumber}?</p>
 
-              <button
-                className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded  mb-5 "
-                onClick={handleCall}
-              >
-                {buttonText}
-              </button>
+              
+            
+                  <button
+                    className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded mr-4"
+                    onClick={handleCall}
+                  >
+                    {buttonText}
+                  </button>
 
-              <button
-                className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded"
-                onClick={toggleModal}
-              >
-                Cancel
-              </button>
+                  <button
+                    className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded"
+                    onClick={toggleModal}
+                  >
+                    Cancel
+                  </button>
+              
+
+
             </div>
           </div>
         )}

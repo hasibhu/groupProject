@@ -15,7 +15,7 @@ const Pricing = () => {
         </p>
       </div>
         
-            <div className="mt-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-0 gap-14">
+            <div className="mt-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-0 gap-14 mx-3">
 
                 {/* <!-- Basic Plan --> */}
                 <div className="max-w-sm mx-auto bg-[#F9F9F9] rounded-lg shadow-lg p-6 text-center transform transition-transform duration-300 hover:scale-110">

@@ -22,7 +22,7 @@ const FAQ = () => {
       {/* questions section */}
       <div className="lg:w-[950px] mx-auto ">
 
-        <div className="collapse mb-2 collapse-plus bg-base-200 " style={{ borderRadius: 0 }}>
+        <div className="collapse mb-2 collapse-plus bg-base-200 " style={{ borderRadius: 5 }}>
           <input type="radio" name="my-accordion-3" defaultChecked />
           <div className="collapse-title text-xl font-medium">
             What services does CodeLab offer?
@@ -38,7 +38,7 @@ const FAQ = () => {
           </div>
         </div>
 
-        <div className="collapse mb-2 collapse-plus bg-base-200">
+        <div className="collapse mb-2 collapse-plus bg-base-200 " style={{ borderRadius: 5 }}>
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             How does the website design process work at CodeLab?
@@ -55,7 +55,7 @@ const FAQ = () => {
           </div>
         </div>
 
-        <div className="collapse mb-2  collapse-plus bg-base-200">
+        <div className="collapse mb-2  collapse-plus bg-base-200" style={{ borderRadius: 5 }}>
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             What types of websites can CodeLab create?
@@ -71,7 +71,7 @@ const FAQ = () => {
           </div>
         </div>
 
-        <div className="collapse mb-2 collapse-plus bg-base-200">
+        <div className="collapse mb-2 collapse-plus bg-base-200" style={{ borderRadius: 5 }}>
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             Do you offer website maintenance services?
@@ -87,7 +87,7 @@ const FAQ = () => {
           </div>
         </div>
 
-        <div className="collapse mb-2  collapse-plus bg-base-200">
+        <div className="collapse mb-2  collapse-plus bg-base-200" style={{ borderRadius: 5 }}>
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             How much does a new website cost?
@@ -102,7 +102,7 @@ const FAQ = () => {
             </p>
           </div>
         </div>
-        <div className="collapse mb-2  collapse-plus bg-base-200">
+        <div className="collapse mb-2  collapse-plus bg-base-200" style={{ borderRadius: 5 }}>
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             Can CodeLab help improve my existing website?

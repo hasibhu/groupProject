@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const SliderCart = ({ bg, title, subTitle, description }) => {
   return (
-    <div className={`  h-[calc(100vh-100px)] w-full relative`}>
+    <div className={`  h-screen w-full relative`}>
       <div className=" w-full h-full ">
         <img src={bg} alt="" className="h-full w-full object-cover rounded -b-lg" />
       </div>

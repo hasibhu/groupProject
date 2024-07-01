@@ -1,21 +1,34 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
   const handleOpenMenu = () => {
-    console.log("hello");
     setOpenMenu(true);
   };
   const handleCloseMenu = () => {
     setOpenMenu(false);
   };
-  console.log(openMenu);
+  const handleScroll = () => {
+    setScrollY(window.scrollY);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <div className=" sticky z-20 top-0 w-full  bg-white dark:bg-black text-black dark:text-white">
-        <div className=" shadow-lg rounded-b-2xl  flex max-w-[1440px] mx-auto justify-between py-3 md:py-5   px-10">
+      <div
+        className={`fixed z-20 top-0 w-full ${
+          scrollY > 1 ? "bg-white text-black" : "bg-transparent text-white "
+        }  dark:bg-black duration-500 dark:text-white`}
+      >
+        <div className="  rounded-b-2xl  flex max-w-[1440px] mx-auto justify-between py-3 md:py-5   px-10">
           <div className=" ">
             <p>Logo</p>
           </div>

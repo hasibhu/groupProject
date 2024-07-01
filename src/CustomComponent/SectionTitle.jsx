@@ -13,13 +13,13 @@ export default function SectionTitle({
       <h1 className="bg-[#FDEFF2] inline-block uppercase text-[#E43C5C] text-[16px] font-semibold py-1 px-5 rounded-full">
         {title}
       </h1>
-      <h2 className="text-[#444444] text-3xl md:text-4xl font-semibold">
+      <h2 className="text-[#444444] text-3xl my-3 md:text-4xl font-semibold">
         {subTitleArray.slice(0, designAmount).join(" ") + " "}
         <span className="text-[#E43C5C]">
           {subTitleArray.slice(designAmount).join(" ")}
         </span>
       </h2>
-      <p className=" w-full md:w-1/2 text-lg text-black/70 text-center">
+      <p className=" w-full md:w-1/2 md:text-lg text-sm text-black/70 text-center">
         {description}
       </p>
     </div>

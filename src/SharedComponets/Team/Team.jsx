@@ -21,7 +21,7 @@ const Team = () => {
           <SectionTitle title={title} subtitle={subtilte} description={description} designAmount={1} ></SectionTitle>
           </div>
         </div>
-        <div className="">
+        <div className="mx-3">
           <Swiper
             slidesPerView={4}
             breakpoints={{

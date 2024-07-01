@@ -9,7 +9,7 @@ import slider3 from "../../assets/slider/slider3.jpg";
 
 const Slider = () => {
   return (
-    <div className="rounded-lg mt-5">
+    <div>
       <Swiper
         loop={true}
         centeredSlides={true}

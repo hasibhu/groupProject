@@ -30,7 +30,7 @@ const Navbar = () => {
           scrollY > 1
             ? "bg-white text-black shadow-lg"
             : "bg-transparent text-white "
-        }  dark:bg-black duration-500 dark:text-white`}
+        }  dark:bg-black duration-500 `}
       >
         <div className="  rounded-b-2xl  flex max-w-[1440px] mx-auto justify-between items-center py-3 md:py-5   px-10">
           <div className=" h-12 ">

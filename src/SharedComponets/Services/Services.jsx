@@ -20,7 +20,7 @@ const Services = () => {
           designAmount={1}
         ></SectionTitle>
       </div>
-      <div className=" my-7 max-w-[1440px] mx-auto grid grid-cols-12 gap-5">
+      <div className=" p-3 lg:p-0 my-7 max-w-[1440px] mx-auto grid grid-cols-12 gap-5">
         <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12  lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>

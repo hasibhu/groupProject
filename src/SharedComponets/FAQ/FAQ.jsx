@@ -21,7 +21,8 @@ const FAQ = () => {
 
       {/* questions section */}
       <div className="lg:w-[950px] mx-auto ">
-        <div className="collapse mb-2 collapse-plus bg-base-200">
+
+        <div className="collapse mb-2 collapse-plus bg-base-200 " style={{ borderRadius: 0 }}>
           <input type="radio" name="my-accordion-3" defaultChecked />
           <div className="collapse-title text-xl font-medium">
             What services does CodeLab offer?

@@ -7,7 +7,7 @@ const Portfolio = () => {
   const description =
     "Step into our project gallery where each piece of work reflects our dedication and skill in coding.  From sleek websites to complex applications, CodingLab’s projects demonstrate our ability to tackle challenges and deliver exceptional results.";
   return (
-    <div className="max-w-[1440px] mx-3 my-10">
+    <div className="max-w-[1440px] mx-auto p-3 md:px-0 my-10">
       <div className="mb-4">
         <SectionTitle
           title={title}

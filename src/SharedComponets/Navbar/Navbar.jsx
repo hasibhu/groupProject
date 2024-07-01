@@ -14,7 +14,7 @@ const Navbar = () => {
   console.log(openMenu);
   return (
     <>
-      <div className=" sticky z-10 top-0 w-full  bg-white dark:bg-black text-black dark:text-white">
+      <div className=" sticky z-20 top-0 w-full  bg-white dark:bg-black text-black dark:text-white">
         <div className=" shadow-lg rounded-b-2xl  flex max-w-[1440px] mx-auto justify-between py-3 md:py-5   px-10">
           <div className=" ">
             <p>Logo</p>

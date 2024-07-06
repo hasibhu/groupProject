@@ -25,7 +25,7 @@ const ContactUs = () => {
             ></iframe>
           </p>
         </div>
-        <div className="mt-10 grid grid-cols-12">
+        <div className="mt-10 grid grid-cols-12 px-3 md:px-0">
           <div className="flex flex-col gap-10 col-span-12 lg:col-span-4">
             <div className="flex gap-3">
               <div className="bg-[#FDEFF2] text-[#E43C5C] flex justify-center items-center px-3 rounded-full">
@@ -116,12 +116,12 @@ const ContactUs = () => {
               <input
                 type="text"
                 placeholder="Name"
-                className="border h-[30px] col-span-6 p-5 rounded"
+                className="border h-[30px] col-span-12 md:col-span-6 p-5 rounded"
               />
               <input
                 type="text"
                 placeholder="Email"
-                className="border h-[30px] col-span-6 p-5 rounded"
+                className="border h-[30px] col-span-12 md:col-span-6 p-5 rounded"
               />
               <input
                 type="text"

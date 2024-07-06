@@ -42,7 +42,7 @@ const CallToAction = () => {
 
           <button
               // className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded"
-              className="btn rounded-full hover:bg-[#E9607A] text-[#FFFFFF] bg-[#E43C5C] px-6 py-2"
+              className="btn rounded-full hover:bg-[#E9607A] text-[#FFFFFF] bg-[#E43C5C] px-6 py-2 border-none"
             onClick={toggleModal}
           >
             {buttonText}
@@ -60,14 +60,14 @@ const CallToAction = () => {
               
             
                   <button
-                    className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded mr-4"
+                    className="btn rounded-full hover:bg-[#E9607A] text-[#FFFFFF] bg-[#E43C5C] px-6 py-2 border-none"
                     onClick={handleCall}
                   >
                     {buttonText}
                   </button>
 
                   <button
-                    className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded"
+                  className="btn rounded-full hover:bg-[#f42a2a] text-[#FFFFFF] bg-black ml-3 px-6 py-2 border-none"
                     onClick={toggleModal}
                   >
                     Cancel

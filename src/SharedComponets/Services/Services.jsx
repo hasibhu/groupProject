@@ -24,7 +24,7 @@ const Services = () => {
         <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12  lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
-              <MdDevices className=" hover_child duration-300  text-4xl text-red-500" />
+              <MdDevices className=" hover_child duration-300  text-4xl text-[#e43c5c]" />
             </div>
             <h1 className=" tracking-widest font-medium">
               Frontend Development
@@ -38,7 +38,7 @@ const Services = () => {
         <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12  lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
-              <FaServer className=" hover_child duration-300  text-4xl text-red-500" />
+              <FaServer className=" hover_child duration-300  text-4xl text-[#e43c5c]" />
             </div>
             <h1 className=" tracking-widest font-medium">
               Backend Development
@@ -52,7 +52,7 @@ const Services = () => {
         <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12  lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
-              <BsServer className=" hover_child duration-300  text-4xl text-red-500" />
+              <BsServer className=" hover_child duration-300  text-4xl text-[#e43c5c]" />
             </div>
             <h1 className=" tracking-widest font-medium">
               Database Development
@@ -66,7 +66,7 @@ const Services = () => {
         <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12  lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
-              <FaUserLock className=" hover_child duration-300  text-4xl text-red-500" />
+              <FaUserLock className=" hover_child duration-300  text-4xl text-[#e43c5c]" />
             </div>
             <h1 className=" tracking-widest font-medium">Authentication</h1>
             <p className=" text-black/50">
@@ -78,7 +78,7 @@ const Services = () => {
         <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12  lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
-              <IoLogoUsd className=" hover_child duration-300  text-4xl text-red-500" />
+              <IoLogoUsd className=" hover_child duration-300  text-4xl text-[#e43c5c]" />
             </div>
             <h1 className=" tracking-widest font-medium">Payment System</h1>
             <p className=" text-black/50">
@@ -90,7 +90,7 @@ const Services = () => {
         <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12  lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
-              <MdDashboard className=" hover_child duration-300  text-4xl text-red-500" />
+              <MdDashboard className=" hover_child duration-300  text-4xl text-[#e43c5c]" />
             </div>
             <h1 className=" tracking-widest font-medium">
               Dashboard Development
@@ -104,7 +104,7 @@ const Services = () => {
         <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12  lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
-              <MdAdminPanelSettings className=" hover_child duration-300  text-4xl text-red-500" />
+              <MdAdminPanelSettings className=" hover_child duration-300  text-4xl text-[#e43c5c]" />
             </div>
             <h1 className=" tracking-widest font-medium">
               {" "}
@@ -119,7 +119,7 @@ const Services = () => {
         <div className=" p-3  border-2 rounded-xl md:col-span-4 col-span-12  lg:col-span-3 hover_root cursor-pointer ">
           <div className=" py-3 flex flex-col items-center gap-2 text-center">
             <div>
-              <IoIosSettings className=" hover_child duration-300  text-4xl text-red-500" />
+              <IoIosSettings className=" hover_child duration-300  text-4xl text-[#e43c5c]" />
             </div>
             <h1 className=" tracking-widest font-medium">Others Development</h1>
             <p className=" text-black/50">

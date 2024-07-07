@@ -7,7 +7,7 @@ import img5 from '../../assets/portfolio/images (2).jpeg'
 import img6 from '../../assets/portfolio/images (3).jpeg'
 import img7 from '../../assets/portfolio/images.jpeg'
 import img8 from '../../assets/portfolio/images.png'
-import img9 from '../../assets/portfolio/videograph-free-template-353x278.jpg'
+import img9 from '../../assets/portfolio/a1614500-e03f-11eb-986a-30f6f0d4f1cc.png'
 const PortfolioCards = () => {
 
     return (
@@ -17,7 +17,7 @@ const PortfolioCards = () => {
                     <figure>
                         <img
                             src={img1}
-                            className='h-72 w-full rounded-2xl object-cover'
+                            className='h-72 w-full border rounded-2xl object-cover'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -41,7 +41,7 @@ const PortfolioCards = () => {
                   <figure>
                      <img
                             src={img2}
-                            className='h-72 w-full rounded-2xl object-cover'
+                            className='h-72 border w-full rounded-2xl object-cover'
                         />
                    
                   </figure>
@@ -66,7 +66,7 @@ const PortfolioCards = () => {
                     <figure>
                         <img
                             src={img3}
-                            className='h-72 w-full object-cover  rounded-2xl'
+                            className='h-72 border w-full object-cover  rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -91,7 +91,7 @@ const PortfolioCards = () => {
                         <img
                             src={img4}
                             alt="Shoes"
-                            className='h-72 object-cover w-full rounded-2xl'
+                            className='h-72 border object-cover w-full rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -116,7 +116,7 @@ const PortfolioCards = () => {
                         <img
                             src={img5}
                             alt="Shoes"
-                            className='h-72 w-full object-cover rounded-2xl'
+                            className='h-72 border w-full object-cover rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -141,7 +141,7 @@ const PortfolioCards = () => {
                         <img
                             src={img6}
                             alt="Shoes"
-                            className='h-72 w-full object-cover rounded-2xl'
+                            className='h-72 border w-full object-cover rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -166,7 +166,7 @@ const PortfolioCards = () => {
                         <img
                             src={img7}
                             alt="Shoes"
-                            className='h-72 w-full object-cover rounded-2xl'
+                            className='h-72 w-full border object-cover rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -190,7 +190,7 @@ const PortfolioCards = () => {
                         <img
                             src={img8}
                             alt="Shoes"
-                            className='h-72 w-full object-cover rounded-2xl'
+                            className='h-72 w-full border object-cover rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -215,7 +215,7 @@ const PortfolioCards = () => {
                         <img
                             src={img9}
                             alt="Shoes"
-                            className='h-72 w-full object-cover rounded-2xl'
+                            className='h-72 w-full border object-cover rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">

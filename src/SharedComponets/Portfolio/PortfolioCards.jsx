@@ -1,5 +1,13 @@
 import "./Portfolio.css";
-
+import img1 from '../../assets/portfolio/a1614500-e03f-11eb-986a-30f6f0d4f1cc.png'
+import img2 from '../../assets/portfolio/download (1).jpeg'
+import img3 from '../../assets/portfolio/download.jpeg'
+import img4 from '../../assets/portfolio/images (1).jpeg'
+import img5 from '../../assets/portfolio/images (2).jpeg'
+import img6 from '../../assets/portfolio/images (3).jpeg'
+import img7 from '../../assets/portfolio/images.jpeg'
+import img8 from '../../assets/portfolio/images.png'
+import img9 from '../../assets/portfolio/a1614500-e03f-11eb-986a-30f6f0d4f1cc.png'
 const PortfolioCards = () => {
 
     return (
@@ -8,9 +16,8 @@ const PortfolioCards = () => {
                 <div className="shadow-sm relative hover:bg-opacity-65 ">
                     <figure>
                         <img
-                            src="https://i.ibb.co/3ySx0kr/marques-thomas-h-O5s1n-SEMSc-unsplash.jpg"
-                            alt="Shoes"
-                            className='h-72 w-full rounded-2xl object-cover'
+                            src={img1}
+                            className='h-72 w-full border rounded-2xl object-cover'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -33,9 +40,8 @@ const PortfolioCards = () => {
                 <div className=" shadow-sm relative hover:bg-opacity-65">
                   <figure>
                      <img
-                            src="https://i.ibb.co/9ydXy8g/brett-jordan-0-Fytazj-Hhxs-unsplash.jpg"
-                            alt="Shoes"
-                            className='h-72 w-full rounded-2xl object-cover'
+                            src={img2}
+                            className='h-72 border w-full rounded-2xl object-cover'
                         />
                    
                   </figure>
@@ -59,9 +65,8 @@ const PortfolioCards = () => {
                 <div className=" shadow-sm relative hover:bg-opacity-65 ">
                     <figure>
                         <img
-                            src="https://i.ibb.co/q0k9cMW/christian-wiediger-Nm-Gz-VG5-Wsg8-unsplash.jpg"
-                            alt="Shoes"
-                            className='h-72 w-full object-cover  rounded-2xl'
+                            src={img3}
+                            className='h-72 border w-full object-cover  rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -84,9 +89,9 @@ const PortfolioCards = () => {
                 <div className="shadow-sm relative hover:bg-opacity-65 ">
                     <figure>
                         <img
-                            src="https://i.ibb.co/j8p43SW/solen-feyissa-iur-EAy-Yy-U-c-unsplash.jpg"
+                            src={img4}
                             alt="Shoes"
-                            className='h-72 object-cover w-full rounded-2xl'
+                            className='h-72 border object-cover w-full rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -109,9 +114,9 @@ const PortfolioCards = () => {
                 <div className="shadow-sm relative hover:bg-opacity-65 ">
                     <figure>
                         <img
-                            src="https://i.ibb.co/PY8KshZ/jaimie-harmsen-z-J9-IMLp-X8w-Q-unsplash.jpg"
+                            src={img5}
                             alt="Shoes"
-                            className='h-72 w-full object-cover rounded-2xl'
+                            className='h-72 border w-full object-cover rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -134,9 +139,9 @@ const PortfolioCards = () => {
                 <div className="shadow-sm relative hover:bg-opacity-65 ">
                     <figure>
                         <img
-                            src="https://i.ibb.co/ySTtkgk/oberon-copeland-veryinformed-com-Et-Cx-Iua-G-z-U-unsplash.jpg"
+                            src={img6}
                             alt="Shoes"
-                            className='h-72 w-full object-cover rounded-2xl'
+                            className='h-72 border w-full object-cover rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -159,9 +164,9 @@ const PortfolioCards = () => {
                 <div className="shadow-sm relative hover:bg-opacity-65 ">
                     <figure>
                         <img
-                            src="https://i.ibb.co/CbDFLZc/solen-feyissa-KWZa42a1kds-unsplash.jpg"
+                            src={img7}
                             alt="Shoes"
-                            className='h-72 w-full object-cover rounded-2xl'
+                            className='h-72 w-full border object-cover rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -183,9 +188,9 @@ const PortfolioCards = () => {
                 <div className="shadow-sm relative hover:bg-opacity-65 ">
                     <figure>
                         <img
-                            src="https://i.ibb.co/DVDqRPy/alexander-shatov-k1xf2-D7j-WUs-unsplash.jpg"
+                            src={img8}
                             alt="Shoes"
-                            className='h-72 w-full object-cover rounded-2xl'
+                            className='h-72 w-full border object-cover rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">
@@ -208,9 +213,9 @@ const PortfolioCards = () => {
                 <div className="shadow-sm relative hover:bg-opacity-65 ">
                     <figure>
                         <img
-                            src="https://i.ibb.co/cxWDcFs/souvik-banerjee-JLj-Nbvl-DDo-unsplash.jpg"
+                            src={img9}
                             alt="Shoes"
-                            className='h-72 w-full object-cover rounded-2xl'
+                            className='h-72 w-full border object-cover rounded-2xl'
                         />
                     </figure>
                     <div className="card-actions z-10 items-center justify-center absolute flex inset-0">

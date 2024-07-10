@@ -46,26 +46,42 @@ const Navbar = () => {
             </div>
             <div className=" hidden md:block lg:block">
               <ul className=" font-semibold flex gap-10">
-                <a href="" className="duration-150 hover:text-[#D01D3F]  ">
+                <a
+                  href="#slider"
+                  className="duration-150 hover:text-[#D01D3F]  "
+                >
                   <li>Home</li>
                 </a>
-                <a href="" className="duration-150 hover:text-[#D01D3F]">
+                <a href="#about" className="duration-150 hover:text-[#D01D3F]">
                   {" "}
                   <li>About</li>
                 </a>
-                <a href="" className="duration-150 hover:text-[#D01D3F]">
+                <a
+                  href="#services"
+                  className="duration-150 hover:text-[#D01D3F]"
+                >
                   {" "}
                   <li>Services</li>
                 </a>
-                <a href="" className="duration-150 hover:text-[#D01D3F]">
+                <a
+                  href="#portfolio"
+                  className="duration-150 hover:text-[#D01D3F]"
+                >
                   {" "}
                   <li>Portfolio</li>
                 </a>
-                <a href="" className="duration-150 hover:text-[#D01D3F]">
+                <a href="#price" className="duration-150 hover:text-[#D01D3F]">
+                  {" "}
+                  <li>Pricing</li>
+                </a>
+                <a href="#team" className="duration-150 hover:text-[#D01D3F]">
                   {" "}
                   <li>Team</li>
                 </a>
-                <a href="" className="duration-150 hover:text-[#D01D3F]">
+                <a
+                  href="#contact"
+                  className="duration-150 hover:text-[#D01D3F]"
+                >
                   {" "}
                   <li>Contact</li>
                 </a>
@@ -91,24 +107,42 @@ const Navbar = () => {
         >
           {" "}
           <ul className=" flex flex-col text-center gap-5 text-black">
-            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
-              Home
-            </li>
-            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
-              About
-            </li>
-            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
-              Services
-            </li>
-            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
-              Portfolio
-            </li>
-            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
-              Team
-            </li>
-            <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
-              Contact
-            </li>
+            <a href="#slider">
+              {" "}
+              <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
+                Home
+              </li>
+            </a>
+            <a href="#about">
+              <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
+                About
+              </li>
+            </a>
+            <a href="#services">
+              <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
+                Services
+              </li>
+            </a>
+            <a href="#portfolio">
+              <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
+                Portfolio
+              </li>
+            </a>
+            <a href="#price">
+              <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
+                Pricing
+              </li>
+            </a>
+            <a href="#team">
+              <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
+                Team
+              </li>
+            </a>
+            <a href="#contact">
+              <li className=" cursor-pointer hover:text-[#D01D3F] duration-300">
+                Contact
+              </li>
+            </a>
           </ul>
         </div>
       </div>

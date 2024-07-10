@@ -7,18 +7,27 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination } from "swiper/modules";
-import SectionTitle from './../../CustomComponent/SectionTitle';
+import SectionTitle from "./../../CustomComponent/SectionTitle";
+import { CiFacebook } from "react-icons/ci";
+import { FaXTwitter } from "react-icons/fa6";
+import { CiLinkedin } from "react-icons/ci";
 
 const Team = () => {
-  const title = 'Team';
-  const subtilte = 'Our Hardworking Team'
-  const description = 'Step into our project gallery where each piece of work reflects our dedication and skill in coding.  From sleek websites to complex applications, CodingLab’s projects'
+  const title = "Team";
+  const subtilte = "Our Hardworking Team";
+  const description =
+    "Step into our project gallery where each piece of work reflects our dedication and skill in coding.  From sleek websites to complex applications, CodingLab’s projects";
   return (
     <div className="max-w-[1440px] m-auto py-10">
       <div>
         <div className="flex justify-center mb-7">
           <div className="flex flex-col justify-center items-center ">
-          <SectionTitle title={title} subtitle={subtilte} description={description} designAmount={1} ></SectionTitle>
+            <SectionTitle
+              title={title}
+              subtitle={subtilte}
+              description={description}
+              designAmount={1}
+            ></SectionTitle>
           </div>
         </div>
         <div className="mx-3">
@@ -45,7 +54,7 @@ const Team = () => {
             spaceBetween={30}
             pagination={{
               clickable: true,
-              el: '.custom-pagination',
+              el: ".custom-pagination",
             }}
             modules={[Pagination]}
             className="mySwiper"
@@ -57,10 +66,16 @@ const Team = () => {
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
                   />
-                  <div className="border-b flex gap-3 justify-center p-2 absolute bottom-0 w-full bg-white transition-opacity duration-300 opacity-0 group-hover:opacity-90">
-                    <a href="#">a</a>
-                    <a href="#">a</a>
-                    <a href="#">a</a>
+                  <div className="border-b flex gap-3 justify-center items-center p-2 absolute bottom-0 w-full bg-white transition-opacity duration-300 opacity-0 group-hover:opacity-90">
+                    <a className="text-3xl">
+                      <FaXTwitter />
+                    </a>
+                    <a className="text-4xl">
+                      <CiFacebook />
+                    </a>
+                    <a className="text-4xl">
+                      <CiLinkedin />
+                    </a>
                   </div>
                 </div>
                 <div className="text-center p-5">
@@ -78,10 +93,16 @@ const Team = () => {
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
                   />
-                  <div className="border-b flex gap-3 justify-center p-2 absolute bottom-0 w-full bg-white transition-opacity duration-300 opacity-0 group-hover:opacity-90">
-                    <a href="#">a</a>
-                    <a href="#">a</a>
-                    <a href="#">a</a>
+                  <div className="border-b flex gap-3 justify-center items-center p-2 absolute bottom-0 w-full bg-white transition-opacity duration-300 opacity-0 group-hover:opacity-90">
+                    <a className="text-3xl">
+                      <FaXTwitter />
+                    </a>
+                    <a className="text-4xl">
+                      <CiFacebook />
+                    </a>
+                    <a className="text-4xl">
+                      <CiLinkedin />
+                    </a>
                   </div>
                 </div>
                 <div className="text-center p-5">
@@ -99,10 +120,16 @@ const Team = () => {
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
                   />
-                  <div className="border-b flex gap-3 justify-center p-2 absolute bottom-0 w-full bg-white transition-opacity duration-300 opacity-0 group-hover:opacity-90">
-                    <a href="#">a</a>
-                    <a href="#">a</a>
-                    <a href="#">a</a>
+                  <div className="border-b flex gap-3 justify-center items-center p-2 absolute bottom-0 w-full bg-white transition-opacity duration-300 opacity-0 group-hover:opacity-90">
+                    <a className="text-3xl">
+                      <FaXTwitter />
+                    </a>
+                    <a className="text-4xl">
+                      <CiFacebook />
+                    </a>
+                    <a className="text-4xl">
+                      <CiLinkedin />
+                    </a>
                   </div>
                 </div>
                 <div className="text-center p-5">
@@ -120,10 +147,16 @@ const Team = () => {
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
                   />
-                  <div className="border-b flex gap-3 justify-center p-2 absolute bottom-0 w-full bg-white transition-opacity duration-300 opacity-0 group-hover:opacity-90">
-                    <a href="#">a</a>
-                    <a href="#">a</a>
-                    <a href="#">a</a>
+                  <div className="border-b flex gap-3 justify-center items-center p-2 absolute bottom-0 w-full bg-white transition-opacity duration-300 opacity-0 group-hover:opacity-90">
+                    <a className="text-3xl">
+                      <FaXTwitter />
+                    </a>
+                    <a className="text-4xl">
+                      <CiFacebook />
+                    </a>
+                    <a className="text-4xl">
+                      <CiLinkedin />
+                    </a>
                   </div>
                 </div>
                 <div className="text-center p-5">
@@ -141,10 +174,16 @@ const Team = () => {
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
                   />
-                  <div className="border-b flex gap-3 justify-center p-2 absolute bottom-0 w-full bg-white transition-opacity duration-300 opacity-0 group-hover:opacity-90">
-                    <a href="#">a</a>
-                    <a href="#">a</a>
-                    <a href="#">a</a>
+                  <div className="border-b flex gap-3 justify-center items-center p-2 absolute bottom-0 w-full bg-white transition-opacity duration-300 opacity-0 group-hover:opacity-90">
+                    <a className="text-3xl">
+                      <FaXTwitter />
+                    </a>
+                    <a className="text-4xl">
+                      <CiFacebook />
+                    </a>
+                    <a className="text-4xl">
+                      <CiLinkedin />
+                    </a>
                   </div>
                 </div>
                 <div className="text-center p-5">
@@ -162,10 +201,16 @@ const Team = () => {
                     src="https://bootstrapmade.com/demo/templates/Tempo/assets/img/team/team-1.jpg"
                     alt="team"
                   />
-                  <div className="border-b flex gap-3 justify-center p-2 absolute bottom-0 w-full bg-white transition-opacity duration-300 opacity-0 group-hover:opacity-90">
-                    <a href="#">a</a>
-                    <a href="#">a</a>
-                    <a href="#">a</a>
+                  <div className="border-b flex gap-3 justify-center items-center p-2 absolute bottom-0 w-full bg-white transition-opacity duration-300 opacity-0 group-hover:opacity-90">
+                    <a className="text-3xl">
+                      <FaXTwitter />
+                    </a>
+                    <a className="text-4xl">
+                      <CiFacebook />
+                    </a>
+                    <a className="text-4xl">
+                      <CiLinkedin />
+                    </a>
                   </div>
                 </div>
                 <div className="text-center p-5">
@@ -176,6 +221,7 @@ const Team = () => {
                 </div>
               </div>
             </SwiperSlide>
+
             {/* Repeat SwiperSlide as needed */}
           </Swiper>
           <div className="custom-pagination mt-5 flex gap-[7px] justify-center"></div>
@@ -186,4 +232,3 @@ const Team = () => {
 };
 
 export default Team;
-
